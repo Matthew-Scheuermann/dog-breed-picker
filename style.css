@@ -1,0 +1,51 @@
+body {
+  font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #fdf6e3;
+  color: #5c3a21;
+}
+
+h1 {
+  color: #d2691e;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px 0 #fff2cc;
+}
+
+#breeds {
+  list-style: none;
+  padding: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
+  columns: 3;
+  gap: 1rem;
+  background: #fff2cc;
+  border: 4px dashed #d2691e;
+  border-radius: 1.5rem;
+}
+
+#breeds li {
+  padding: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#breeds li:hover {
+  color: #d2691e;
+  text-decoration: underline wavy;
+}
+
+#output {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#output img {
+  max-width: 220px;
+  border-radius: 1.5rem;
+  border: 6px solid #d2691e;
+  background: #fff2cc;
+  padding: 6px;
+}
