@@ -15,10 +15,11 @@ A small practice project using the free [Dog CEO API](https://dog.ceo/dog-api/) 
 
 ### Part 2: JavaScript & Core Functionality
 
-- Create a `state` object with two properties: `breeds` (starts as an empty array) and `selectedBreed` (starts as `null`).
+<!-- - Create a `state` object with two properties: `breeds` (starts as an empty array) and `selectedBreed` (starts as `null`).
 - Fetch the breed list from `https://dog.ceo/api/breeds/list/all`.
   - The response is shaped like `{ message: { breedName: [...subBreeds], ... }, status: "success" }` — an object, not an array.
-  - Use `Object.keys(result.message)` to turn the breed names into a usable array, and save that to `state.breeds`.
+  - Use `Object.keys(result.message)` to turn the breed names into a usable array, and save that to `state.breeds`. -->
+
 - Render the list using `forEach` + `document.createElement` (not `.map()` + `innerHTML` this time):
   - Clear `#breeds` first.
   - Loop through `state.breeds` with `.forEach()`.
